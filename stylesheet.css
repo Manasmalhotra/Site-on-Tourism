@@ -1,0 +1,11 @@
+body{font-size:20;
+font-family:arial;
+background-color: rgb(223,250,118);}
+p.blue{color:blue;
+font-size:16;
+font-family:verdana;}
+.red{color:red;
+font-size:16;
+font-family:verdana;}
+.head{text-decoration:underline;
+font-style: italic;}

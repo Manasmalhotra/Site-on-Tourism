@@ -1,0 +1,99 @@
+.b{
+background-color:rgb(227,221,106);
+animation:backwards 10s infinite;
+font-family:Arial Black;
+font-size:16;
+}
+@keyframes back{
+0%{background:rgb(227,221,106);}
+25%{background:rgb(130,192,255);}
+50%{background:rgb(251,134,113);}
+75%{background:rgb(136,255,136);}
+100%{background:rgb(227,221,106);}
+}
+body{
+background-color:rgb(227,221,106);
+font-family:Arial Black;
+font-size:16;
+}
+.h{
+font-size: 25px;
+text-decoration:underline;
+color:green;
+animation:font 5s;
+}
+@keyframes font{
+from{color:green;}
+to{color:red;}
+}
+a:link {
+color:blue;
+}
+a:visited{
+color: #8c8c9D;
+}
+a:hover{
+color:#F15A51;
+}
+.images{
+opacity:0;
+float:right;
+border-width:10;
+border-style:solid;
+animation:op 5s 2s forwards;
+}
+@keyframes op{
+from{opacity:0;}
+to{opacity:1.0;}
+}
+.paragraph{
+margin-right:400px;
+}
+.image{
+float:right;
+border-width:10;
+border-style:dotted;
+border-color:green;
+margin-right:50px;
+position:relative;
+top:25px;
+transform:scale(0.5,0.5);
+margin-top:-400px;
+animation:drop 4s forwards,
+          trans 4s 16s forwards;
+}
+.p{
+border: black 2px solid;
+background-image: url("clouds.gif");
+cursor: url("MSN.ico"),default;
+margin-right:400px;
+}
+.img{
+transform:scale(0.5,0.5);
+margin-top:-400px;
+border: black 10px solid;
+animation:drop 4s forwards,
+          trans 4s 16s forwards; 
+}
+@keyframes drop{
+0%{}
+100%{transform:translateY(430px);}
+}
+@keyframes trans{
+from{transform:translateY(430px);transform: scale(0.5,0.5);}
+to{transform:translateY(430px);transform: scale(1,1);}
+}
+.i{
+animation:rotated 2s;
+}
+@keyframes rotated{
+0%{transform:rotate(0deg);}
+100%{transform:rotate(360deg);}
+}
+
+
+
+
+
+
+

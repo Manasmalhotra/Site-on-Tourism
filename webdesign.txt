@@ -1,0 +1,9 @@
+<html>
+<head>
+<title>Webdesign</title>
+<body>
+<h1><b><i>Tourist places</h1>
+<br></br>
+<p>Welcome to indian tourism! India is a country with extremly rich culture and heritage and in other webpages you are going to get a proof of it.</p>
+<img src="C:\Users\Public\Pictures\Sample Pictures\lighthouse.jpg" height="200" width="200" align="right" border="10"></img>
+</body>
